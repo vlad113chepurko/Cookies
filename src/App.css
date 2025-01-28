@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin: 5px;
+}
+
+h2 {
+  margin: 5px;
+  font-size: 1.5rem;
+}
+
+.name-container {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-bottom: 10px;
+  background-color: rgb(50, 50, 50);
+}
+
+.user-container button {
+  width: 30%;
+  height: 40px;
+
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(242, 215, 250);
+
+  &:hover {
+    background-color: rgb(201, 172, 210);
+  }
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-container {
+  width: 600px;
+  height: 400px;
+
+  margin: 0 auto;
+  transform: translateY(20%);
+
+  background-color: rgb(38, 38, 38);
+  border-radius: 15px;
+
+  color: white;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.settings-container {
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+
+  padding: 10px;
+
+  transform: translateY(20%);
+  background-color: rgb(38, 38, 38);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.settings-container button {
+  width: 80%;
+  height: 40px;
+
+  margin: 10px;
+
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(242, 215, 250);
+
+  &:hover {
+    background-color: rgb(201, 172, 210);
+  }
+}
+
+.settings-container input {
+  width: 80%;
+  height: 40px;
+
+  outline: none;
+  border-radius: 15px;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.settings-container select {
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+
+  outline: none;
+  border: none;
+  border-radius: 5px;
+
+  z-index: 1000;
+}
+
+.settings-container select option {
+  outline: none;
+  border: none;
+  background-color: aliceblue;
+  border-radius: 15px;
+  height: 40px;
+}
+
+.dinamic-container {
+  text-align: left;
+  color: white;
+
+  display: flex;
+  align-items: center;
+
+  padding: 10px;
+
+  width: 200px;
+  height: 40px;
+
+  background-color: rgb(97, 125, 56);
+  border-radius: 5px;
+
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.dinamic-container button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+
+  position: absolute;
+  right: 10px;
+}
